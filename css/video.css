@@ -45,7 +45,7 @@ nav a.active {
   text-decoration: underline;
 }
 
-.melodies-section {
+.video-section {
   max-width: 900px;
   margin: 30px auto;
   padding: 20px;
@@ -75,17 +75,16 @@ video {
   height: auto;
 }
 .video-container video {
-  width: 100%; /* Video ngang sẽ giãn ra hết khung */
+  width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-/* Video dọc giữ nguyên tỷ lệ */
 .video-container video#video5 {
-  width: auto; /* Không kéo ngang */
-  height: 100%; /* Giữ nguyên chiều cao */
-  object-fit: contain; /* Giữ nguyên tỉ lệ, có viền đen nếu cần */
-  max-height: 100vh; /* Đảm bảo không vượt quá chiều cao màn hình */
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  max-height: 100vh;
 }
 
 .image {
